@@ -1,0 +1,31 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:backgroundTint="@color/cardview_light_background"
+    android:orientation="vertical"
+    android:padding="10dp">
+
+    <TextView
+        android:id="@+id/questionTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="어떤 목적으로 이 앱을 사용하고 계신가요?" />
+
+    <EditText
+        android:id="@+id/purposeEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="목적 입력" />
+
+    <Button
+        android:id="@+id/submitButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="제출" />
+
+    <Button
+        android:id="@+id/forceQuitButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="강제 종료" />
+</LinearLayout>
